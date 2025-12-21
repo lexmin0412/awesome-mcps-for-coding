@@ -21,6 +21,10 @@
     "iconify": {
       "command": "npx",
       "args": ["@osmansiddiquer/iconify-mcp"]
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": ["shadcn@latest", "mcp"]
     }
   }
 }
