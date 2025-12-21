@@ -1,0 +1,27 @@
+{
+  "name": "awesome-mcps-for-coding",
+  "version": "0.0.1",
+  "description": "用于编码的精选 MCP 服务",
+  "packageManager": "pnpm@10.24.0",
+  "main": "index.js",
+  "scripts": {
+    "generate": "tsx scripts/generate.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexmin0412/awesome-mcps-for-coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexmin0412/awesome-mcps-for-coding/issues"
+  },
+  "homepage": "https://github.com/lexmin0412/awesome-mcps-for-coding#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

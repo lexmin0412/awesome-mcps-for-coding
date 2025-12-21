@@ -1,30 +1,27 @@
 {
   "mcpServers": {
+    "context7": {
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "chrome devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ]
+    },
+    "iconify": {
+      "command": "npx",
+      "args": [
+        "@osmansiddiquer/iconify-mcp"
+      ]
+    },
     "shadcn": {
       "command": "npx",
       "args": [
         "shadcn@latest",
         "mcp"
       ]
-    },
-    "context7": {
-      "url": "https://mcp.context7.com/mcp"
-    },
-    "Chrome DevTools MCP": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "chrome-devtools-mcp@latest"
-      ],
-      "env": {}
-    },
-    "iconify": {
-      "command": "npx",
-      "args": ["@osmansiddiquer/iconify-mcp"]
-    },
-    "shadcn": {
-      "command": "npx",
-      "args": ["shadcn@latest", "mcp"]
     }
   }
 }
